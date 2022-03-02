@@ -1,0 +1,213 @@
+.result{
+    display:none;
+}
+
+.title5{
+    color: #5AB248;
+    padding-top: 11px;
+    float: right;
+}
+
+.btn-products {
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.btn-products input[type="submit"]{
+    background-color: #fff;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    width: 120px;
+    text-align: center;
+    margin: 10px;
+    padding: 15px 0px;
+    border: 1px solid #5AB248;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #aeaeae;
+    cursor: pointer;
+    white-space: normal;
+}
+
+.btn-products input[type="submit"]:hover{
+	background-color: #5AB248;
+	color: #fff;
+}
+
+.btn-products input[type="submit"]:disabled{
+	background-color: #5AB248;
+	color: #fff;
+	cursor: auto;
+}
+
+#tab {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #5AB248;    
+}
+
+.tamano {
+    height: 440px;
+    width: 100%;
+}
+
+.tablinks {
+    background: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #5AB248;
+    margin-left: 15px;
+    padding: 10px 20px;
+    border-top: 1px solid #5AB248;
+    border-left: 1px solid #5AB248;
+    border-right: 1px solid #5AB248;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    transition: all .3s ease-in;
+    cursor: pointer;
+}
+
+.tablinks:hover{
+    background-color: #fff;
+}
+
+.tablinks.active{
+    background: #5AB248;
+    color: #fff;
+}
+
+.text-title {
+    display: block;
+    color: #5AB248;
+    font-size: 22px;
+    font-weight: 600;    
+    text-align: center;
+    margin-bottom: 10px;    
+}
+
+.text-subtitle {
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.canvasjs-chart-credit{
+    display: none;
+}
+
+.text-comm {
+    text-align: center;
+    display: block;
+}
+
+.table-cont {
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.range-cont {
+    width: 90%;
+    margin: 0px auto 40px;
+}
+
+@media (min-width: 1200px){
+    .container{
+        width: 100%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1199px){
+    .container{
+        width: 100%;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1024px){
+    .container{
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 999px){
+    .container{
+        width: 100%;
+    }
+
+    .btn-products input[type="submit"]{
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px){
+    .container{
+        width: 100%;
+    }
+
+    .columna{
+        padding: 0;
+    }
+
+    .columna-2{
+        width: 100%;
+    }
+
+    .btn-products input[type="submit"]{
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 479px){
+    .container{
+        width: 100%;
+    }
+
+    .columna{
+        padding: 0;
+    }
+
+    .columna-2{
+        width: 100%;
+    }
+
+    .btn-products input[type="submit"]{
+        margin-bottom: 15px;
+    }
+
+    .table-data{
+        font-size: 13px;
+    }
+
+    .tablinks{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .range-cont{
+        width: 80%;
+    }
+    
+    .consol-cont {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top:25px;
+        margin-bottom:25px
+    }
+    
+    .consol-item {
+        margin-right: 30px;
+        width: 250px;
+        height: 40px;
+    }
+    
+    div.dt-buttons{
+        position: relative;
+        margin-top: 25px;
+        height: 40px;
+    }
+}

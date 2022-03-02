@@ -1,0 +1,65 @@
+.tablereporte{
+	width: 100%;
+	font-size: 16px;
+}
+
+.tablereporte th{
+	position: relative;
+	background-color: #5AB248;
+	color: #fff;
+	padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tablereporte th:after{
+	position: absolute;
+	right: 0;
+}
+
+.tablereporte th:last-child:after{
+	content: inherit;
+}
+
+.tablereporte td{
+    border-bottom: 1px solid #f0f0f0 !important;
+    padding: 10px;
+}
+
+.tablereporte tr:hover{
+    background-color: #5AB24833;
+}
+
+.tablereporte td.number{
+    text-align: right;
+}
+
+tr.odd td:first-child,
+tr.even td:first-child {
+    padding-left: 4em;
+}
+
+button.dt-button{
+	position: relative;
+	display: inline-block;
+	background-color: #fff;
+	color: #5AB248;
+	width: 150px;
+	font-weight: 500;
+	padding: 10px 15px;
+	border: 2px solid #5AB248;
+	transition: all .3s ease-in;
+    cursor: pointer;
+}
+
+button.dt-button:hover{
+	background-color: #5AB248;
+	color: #fff;
+}
+
+button.dt-button:disabled{
+	background-color:#f6f2e9;
+	border: 1px solid #808080;
+	color: #808080;
+	cursor: auto;
+}
